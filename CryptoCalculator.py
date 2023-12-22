@@ -11,7 +11,7 @@ def long_profit_calculator():
     Calculator = Quantity * Leverage + (Exit_price - Entry_price) / (Entry_price) * 100 - Quantity * Leverage
     Profit = Quantity * Leverage + Calculator / 100 * Quantity * Leverage - Quantity * Leverage
     Result = int(Profit) - 0.05 / 100 * Profit
-    return f"\nYour profit including fee will be {round(Result, 3)} USDT plus your quantity your new balance will be {round(Result + Quantity, 3)} USDT"
+    return f"\nYour profit, including fees, will be {round(Result, 3)} USDT. After the trade, your new balance will be {round(Result + Quantity, 3)} USDT"
 
 
 # Long Loss Calculator
@@ -29,7 +29,7 @@ def long_loss_calculator():
         Result = 0
         return f"\nYour account will be liquidated"
     else:
-        return f"\nYour loss including fee will be {round(Result, 3)} USDT minus your quantity your new balance will be {round(Quantity - Result, 3)} USDT"
+        return f"\nYour loss, including fees will be {round(Result, 3)} USDT. After the trade, your new balance will be {round(Quantity - Result, 3)} USDT"
 
 
 # Short Profit Calculator
@@ -43,7 +43,7 @@ def short_profit_calculator():
     Calculator = Quantity * Leverage - (Exit_price - Entry_price) / (Entry_price) * 100 - Quantity * Leverage
     Profit = Quantity * Leverage + Calculator / 100 * Quantity * Leverage - Quantity * Leverage
     Result = int(Profit) - 0.05 / 100 * Profit
-    return f"\nYour profit including fee will be {round(Result, 3)} USDT plus your quantity your new balance will be {round(Quantity + Result, 3)} USDT"
+    return f"\nYour profit, including fees, will be {round(Result, 3)} USDT. After the trade, your new balance will be {round(Quantity + Result, 3)} USDT"
 
 
 # Short Loss Calculator
@@ -61,7 +61,7 @@ def short_loss_calculator():
         Result = 0
         return f"\nYour account will be liquidated"
     else:
-        return f"\nYour loss including fee will be {round(Result, 3)} USDT plus your quantity your new balance will be {round(Quantity - Result, 3)} USDT"
+        return f"\nYour loss, including fees, will be {round(Result, 3)} USDT. After the trade, your new balance will be {round(Quantity - Result, 3)} USDT"
 
 
 def calculate():
