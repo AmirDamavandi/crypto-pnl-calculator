@@ -10,8 +10,11 @@ How to Use
 here is an example for long profit positions
 
 Quantity (USDT) 1000
+
 Leverage 10
+
 Entry Price: 40000
+
 Exit Price: 45000
 
 output : Your profit, including fees, will be 1249.375 USDT. After the trade, your new balance will be 2249.375 USDT
