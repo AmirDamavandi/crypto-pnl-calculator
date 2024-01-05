@@ -9,7 +9,7 @@
 
 here is an example for long profit positions
 
-`Quantity: (USDT) 1000`
+`Quantity (USDT): 1000`
 
 `Leverage: 10`
 
