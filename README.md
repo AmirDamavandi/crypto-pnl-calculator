@@ -1,4 +1,4 @@
-#### This program is a simple Crypto Profit and Loss Calculator. It allows users to calculate the potential profit or loss for both long and short positions in cryptocurrency trading.
+#### This program is a simple Crypto Profit and Loss Calculator. It allows users to calculate the potential profit or loss for both long and short positions in cryptocurrency trading
 
 # How to Use
 
@@ -13,8 +13,8 @@ here is an example for long profit positions
 
 `Leverage: 10`
 
-`Entry Price: 40000`
+`Entry Price: 60000`
 
-`Exit Price: 45000`
+`Exit Price: 69000`
 
-output<br>`Your profit, including fees, will be 1249.375 USDT. After the trade, your new balance will be 2249.375 USDT`
+output<br>`Your profit will be 1500.0 USDT.`
