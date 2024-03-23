@@ -5,7 +5,7 @@
 1. Run the program by executing the script in a Python environment.
 2. Choose the type of calculation you want to perform: long profit, long loss, short profit, or short loss.
 3. Enter the required information such as Quantity, Leverage, Entry Price, and Exit Price or Stop Loss.
-4. The program will calculate and display the result, considering fees and potential liquidation.
+4. The program will calculate and display the result
 
 here is an example for long profit positions
 
