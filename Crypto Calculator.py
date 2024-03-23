@@ -10,7 +10,7 @@ def long_profit_calculator():
         return "\nExit price can't be lower than entry price in long positions"
     Calculator = Quantity * Leverage + (Exit_price - Entry_price) / Entry_price * 100 - Quantity * Leverage
     Profit = Quantity * Leverage + Calculator / 100 * Quantity * Leverage - Quantity * Leverage
-    return f"\nYour profit, including fees, will be {round(Profit, 3)} USDT."
+    return f"\nYour profit will be {round(Profit, 3)} USDT."
 
 
 # Long Loss Calculator
@@ -26,7 +26,7 @@ def long_loss_calculator():
     if Loss >= Quantity:
         return f"\nYour account will be liquidated"
     else:
-        return f"\nYour loss, including fees will be {round(Loss, 3)} USDT."
+        return f"\nYour loss will be {round(Loss, 3)} USDT."
 
 
 # Short Profit Calculator
@@ -39,7 +39,7 @@ def short_profit_calculator():
         return "\nExit price can't be higher than entry price in short positions"
     Calculator = Quantity * Leverage - (Exit_price - Entry_price) / Entry_price * 100 - Quantity * Leverage
     Profit = Quantity * Leverage + Calculator / 100 * Quantity * Leverage - Quantity * Leverage
-    return f"\nYour profit, including fees, will be {round(Profit, 3)} USDT."
+    return f"\nYour profit will be {round(Profit, 3)} USDT."
 
 
 # Short Loss Calculator
@@ -55,7 +55,7 @@ def short_loss_calculator():
     if Loss >= Quantity:
         return f"\nYour account will be liquidated"
     else:
-        return f"\nYour loss, including fees, will be {round(Loss, 3)} USDT."
+        return f"\nYour loss will be {round(Loss, 3)} USDT."
 
 
 def calculate():
