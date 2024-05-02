@@ -4,7 +4,7 @@ This program simplifies cryptocurrency trading by calculating potential profit o
 
 ## How to Use
 
-1. **Run the Program**: clone repository `git clone https://github.com/AmirDamavandi/CryptoPNLCalculator.git`, <br>navigate to directory `cd CryptoPNLCalculator`, run `python main.py`
+1. **Run the Program**: Clone repository `git clone https://github.com/AmirDamavandi/CryptoPNLCalculator.git`, <br>Navigate to directory `cd CryptoPNLCalculator`, Run `python main.py`
 3. **Choose Calculation Type**: Select long profit, long loss, short profit, or short loss.
 4. **Provide Details**: Input Quantity (USDT), Leverage, Entry Price, and either Exit Price or Stop Loss.
 5. **View Results**: The program will compute and display the result.
