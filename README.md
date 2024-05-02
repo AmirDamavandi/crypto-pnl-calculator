@@ -1,13 +1,13 @@
-# 📈 Crypto PNL Calculator
+# Crypto PNL Calculator
 
 This program simplifies cryptocurrency trading by calculating potential profit or loss for both long and short positions.
 
 ## How to Use
 
-1. **Run the Program**: Execute the script in a Python environment.
-2. **Choose Calculation Type**: Select long profit, long loss, short profit, or short loss.
-3. **Provide Details**: Input Quantity (USDT), Leverage, Entry Price, and either Exit Price or Stop Loss.
-4. **View Results**: The program will compute and display the result.
+1. **Run the Program**: clone repository `git clone https://github.com/AmirDamavandi/CryptoPNLCalculator.git`, <br>navigate to directory `cd CryptoPNLCalculator`, run `python main.py`
+3. **Choose Calculation Type**: Select long profit, long loss, short profit, or short loss.
+4. **Provide Details**: Input Quantity (USDT), Leverage, Entry Price, and either Exit Price or Stop Loss.
+5. **View Results**: The program will compute and display the result.
 
 ### Example: Long Profit Calculation
 
